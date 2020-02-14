@@ -1,2 +1,2 @@
 # Adventure Capitalist
-Example Iddle Game using Typescript and Pixi.js
+Example of Idle Game, using Typescript and Pixi.js
