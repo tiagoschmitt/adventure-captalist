@@ -72,7 +72,7 @@ export class CompanyManager {
     }
 
     private initialTime(state: CompanyState): number {
-        var factor: number = Math.ceil(state.owned / 25)
+        var factor: number = Math.ceil(state.owned / 25);
 
         if (factor == 0) {
             return 1;

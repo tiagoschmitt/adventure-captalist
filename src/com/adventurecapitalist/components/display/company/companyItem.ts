@@ -36,7 +36,7 @@ export class CompanyItem extends DisplayComponent {
         hireManagerBtn.y = 0;
 
         var buyBtn: BuyButton = Game.displayFactory.create<BuyButton>(this.id, BuyButton);
-        //this.add(buyBtn);
+        this.add(buyBtn);
         buyBtn.x = 150;
         buyBtn.y = 8;
     }
