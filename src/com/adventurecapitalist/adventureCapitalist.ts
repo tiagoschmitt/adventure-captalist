@@ -84,12 +84,11 @@ export class AdventureCapitalist {
         return new Router(
             Game.app.stage, 
             [{
+                isDefault: true,
                 path: "intro",
-                
                 type: RouterOptionType.NORMAL,
                 component: Intro
             }, {
-                isDefault: true,
                 path: "companies",
                 type: RouterOptionType.NORMAL,
                 component: Companies
