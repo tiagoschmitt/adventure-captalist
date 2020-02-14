@@ -1,7 +1,21 @@
 # Adventure Capitalist
 Example of Idle Game, using Typescript and Pixi.js
 
+# Live version
+- Live version: https://tiagoschmitt.github.io/
 
+# How to use:
+## Pre-requisites:
+- npm install -g typescript
+- npm install -g http-server
+
+## How to compile and watch
+- Command line: tsc --watch
+
+## How to run:
+- Go to the ./dist directory, using the terminal and type: "http-server". It will create a http server that you can use to run the game.
+
+Go to the ./dist directory using the terminal and type: "http-server". It will create a http server that you can use to run the project.
 # Description and Solution
 For this project the idea was to create a idle game, based on Adventure Capitalist. 
 I chose to use PixiJS for image rendering, but no other engine, because the idea here was to create the entire game logic.
