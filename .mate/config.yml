@@ -1,0 +1,7 @@
+# Mate configuration
+# See https://github.com/matelabs/mate for full reference
+
+features:
+  canApprove: true   # Allow Mate to approve PRs when all issues are resolved
+  autoReview: true   # Automatically review new pull requests
+  learning: true     # Learn from feedback to improve future reviews
